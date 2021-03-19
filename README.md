@@ -1,1 +1,1 @@
-# color-transfer
+# Color transfer
