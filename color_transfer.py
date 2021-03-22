@@ -110,10 +110,10 @@ def histogram_color(image):
 
 
 # import course and target image
-source = "test2.jpg"
-target = "rodos.jpg"
+source = "ring.jpg"
+target = "fire.jpg"
 output = "transfer_color.jpg"
-k = 11
+k = 3
 
 # read image
 source_image = cv2.imread(source)
