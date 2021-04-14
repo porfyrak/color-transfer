@@ -14,11 +14,17 @@ Output -> Transferred image
 1) Convert RGB images to L*A*B
 2) Use K-Mean to segment the images in K regions both for Source and Target image
 3) Implement Color Tranfer Algorithm
+
     For every region AND channel:
-      a) Estimate Mean kai Standard Deviation
-      b) Remove mean from target image 
-      c) Multiply target image with Source_Std / Target_Std
-      d) Add to target image the mean value of source image
+     
+     a) Estimate Mean kai Standard Deviation
+     
+     b) Remove mean from target image 
+     
+     c) Multiply target image with Source_Std / Target_Std
+     
+     d) Add to target image the mean value of source image
+     
 4) Merge channels
 5) Convert image from L*A*B to RGB  
  
