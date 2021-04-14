@@ -6,6 +6,7 @@ The implementation is based on the following paper Color transfer based on color
 ## INPUT AND OUTPUT OF OUR IMPLEMENTATION
 
 Input -> Source image, Target image and K value
+
 Output -> Transferred image
 
 ## METHOD STEPS
